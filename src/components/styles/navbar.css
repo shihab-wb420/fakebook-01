@@ -1,0 +1,73 @@
+.navbar_container{
+  width: 100vw !importnt;
+  background: var(--fb-bgColor);
+  padding: 0em;
+  top: 0;
+  position: sticky;
+  border-bottom: 0.01px solid var(--text-gray);
+}
+
+.common_svgIcon{
+  width: 1.4em;
+  height: 1.4em;
+  filter: var(--svg-light);
+}
+.avatar,.friendIcon{
+  width: 1.4em;
+  height: 1.4em;
+}
+.friendIcon{
+  filter: grayscale(1000%) contrast(1000%);
+}
+
+.linkItem{
+  color: var(--text-light);
+  margin: 0px 4px;
+  
+}
+.linkItem:hover{
+  background: var(--most-light-gray);
+}
+
+.navbar_container .firstNav{
+  display: none;
+  padding: 0.6em 0.6em 0.2em 0.6em ;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.displayActive{
+  display: flex !important;
+}
+
+.navbar_container .firstNav #logo{
+  font-size: 1.5em;
+  font-weight: 700;
+  /*color: var(--secondaryColor);*/
+  color: var(--text-light);
+}
+
+
+.navbar_container .firstNav .rightSide{
+  display: flex;
+}
+
+.navbar_container .firstNav .rightSide .linkItem{
+  color: var(--text-gray);
+  padding: 3px;
+  margin:0px 3px;
+}
+
+
+/*❤️#### secondNav start####*/
+
+.navbar_container .secondNav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.navbar_container .secondNav .linkItem{
+  margin: 0px;
+  padding: 0.4em 1.5em;
+  border: 0px solid red;
+}

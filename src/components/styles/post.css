@@ -1,0 +1,112 @@
+.post_container{
+  padding: 3px;
+  margin: 0.5em 0em;
+  background: var(--fb-bgColor);
+}
+
+.post_header{
+  display: flex;
+  flex: 1;
+  padding: 3px 7px;
+  align-items: center;
+  border: 0px solid red;
+}
+/*.post_header:hover{
+  background: rgba(0,0,0,0.15);
+}*/
+.authorDetails{
+  display: flex;
+  align-items: center;
+  background: ;
+  flex: 1;
+}
+.authorImg{
+  width: 2.5em;
+  height: 2.5em;
+  border: 0px solid red;
+  border-radius: 50%;
+}
+.authorName_wrapper{
+  margin-left: 0.5em;
+}
+.authorName{ 
+  color: var(--text-light);
+  font-size: 17px;
+  --moz-font-size: 16px;
+  --webkit-font-size: 16px;
+  font-weight: 450;
+  --moz-font-weight: 460;
+  --webkit-font-weight: 470;
+}
+.createdAt{
+  font-size: 12px;
+  font-weight: 400;
+}
+.post_header-rightSide{
+  display: flex;
+  align-items: center;
+  margin-right: 0.3em;
+}
+.post_header-rightSide .threeDotIcon{
+  color: var(--text-light);
+  font-weight: bolder;
+  font-size: 1.6em;
+  margin-right: 7px;
+  padding: 0px 2px 8px 2px;
+ /* padding-bottom: 0.5em;*/
+}
+.post_header-rightSide .crossIcon{
+  font-size: 1.2em;
+  padding: 8px;
+}
+.post_header-rightSide .threeDotIcon:hover,
+.post_header-rightSide .crossIcon:hover {
+  background: var(--most-light-gray);
+}
+
+
+.post_description{
+  padding: 3px 6px;
+  color: var(--text-light);
+  font-size: 14px;
+  --moz-font-size: 15px;
+  --webkit-font-size: 15px;
+  font-weight: 401;
+  --moz-font-weight: 450;
+  --webkit-font-weight: 450;
+  margin: 3px 0px;
+  border: 0px solid red;
+  flex-wrap: wrap;
+  
+}
+.seeMore{
+  color: var(--text-gray);
+}
+
+.postImg_wrapper{
+  background: var(--most-light-gray);
+  width: 100%;
+  height: auto;
+}
+.postImg{
+  width: 100%;
+  height: 100%;
+}
+
+.post_footer{
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+}
+.loveReact,.comments,.share{
+  color: var(--text-light);
+  background: var(--fb-light-gray);
+  padding: 7px;
+  text-align: center;
+  width: 31%;
+  border-radius: 14px;
+}
+
+.loveReact:hover,.comments:hover,.share:hover{
+  background:var(--light-gray) ;
+}

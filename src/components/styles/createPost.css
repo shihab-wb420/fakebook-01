@@ -1,0 +1,79 @@
+.createPost_container{
+  width: 99.9%;
+  height: 100%;
+  color: var(--text-light);
+  padding: 0.6em;
+  padding-bottom: 4em;
+  background: var(--fb-bgColor);
+}
+
+.createPost_header{
+  display: flex;
+  border: 0px solid red;
+  align-items: center;
+  margin-top: 0.6em;
+}
+.createPost_container .createPost_header .profileImg{
+  width:3em;
+  height:3em;
+  border-radius: 50%;
+  margin: 0px 4px;
+}
+
+.createPost_container .createPost_header .profileName .selectMode{
+  margin-top: 4px;
+}
+.createPost_container .createPost_header .profileName .selectMode .option{
+  font-size: 13px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: var(--text-light) !important;
+  background: var(--fb-light-gray);
+}
+
+.CreatePost_inputBox {
+  margin: 0.5em 0em;
+}
+.CreatePost_inputBox .textarea{
+  padding:7px;
+  border: none;
+  resize: none;
+  width: 100%;
+  height: 15em;
+  font-size: 16px;
+  font-weight: 500 !important;
+  border-radius: 4px;
+  color: var(--text-light);
+  background: var(--fb-light-gray);
+}
+.CreatePost_inputBox .textarea:focus{
+  outline:none;
+}
+.CreatePost_inputBox .textarea::placeholder{
+  color: var(--text-light);
+}
+
+.createPost_extraOption{
+  height: auto;
+  width: 100%;
+  margin-top: 0.3em;
+  padding: 1em 0em;
+}
+.extraItem{
+  display: flex;
+  gap: 0.6em;
+  margin: 0.5em 0em;
+  padding: 4px;
+  font-size: 14px;
+  align-items: center;
+  color: var(--text-gray);
+}
+.extraItem:hover{
+  background: var(--fb-light-gray);
+}
+.extraItem img{
+  width: 1.5em;
+  height: 1.5em;
+  opacity: 0.7;
+  border-radius: 50%;
+}

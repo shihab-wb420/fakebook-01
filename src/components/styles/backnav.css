@@ -1,0 +1,24 @@
+.backNav_container{
+  width: 100%;
+  display: flex;
+  padding: 4px 9px;
+  border-bottom: 1px solid var(--fb-light-gray);
+  color: var(--text-light) ;
+  background: var(--fb-bgColor);
+}
+.backNav_container .leftSide{
+  display: flex;
+  flex: 1;
+  gap: 8px;
+}
+.backNav_container .leftSide h3{
+  background: ;
+  padding: 4px;
+  font-size: 15px;
+}
+
+.backNav_container h4{
+  padding: 4px;
+  font-weight: 500;
+  color: var(--secondaryColor);
+}

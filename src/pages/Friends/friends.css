@@ -1,0 +1,17 @@
+
+
+.friend_container{
+  display: flex;
+  padding: 11px;
+  align-items: center;
+  color: var(--text-light);
+  background: var(--fb-bgColor);
+}
+.friend_container .nameWrapper{
+  margin-left: 6px;
+}
+.friend_container img{
+  width: 4.3em;
+  height: 4.3em;
+  border-radius: 50%;
+}

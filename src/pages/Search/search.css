@@ -1,0 +1,38 @@
+.search_container{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  border-bottom: 0.8px solid var(--light-gray);
+  background: var(--fb-bgColor);
+}
+.search_inputBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background:;
+  padding:  8px;
+  border-bottom: 0.8px solid var(--light-gray);
+}
+.search_inputBox input{
+  padding: 7px;
+  width: 78%;
+  font-size: 15px;
+  font-weight: 402;
+  color: var(--text-light);
+  border-radius: 21px;
+  background: none;
+  border: 0.4px solid var(--light-gray);
+}
+
+.searchIcon{
+  padding-right: 4px;
+}
+.searchIcon:hover{
+  border-radius: 3px;
+  background: var(--fb-light-gray);
+}
+
+.searchIcon img{
+  filter: var(--svg-light);
+}

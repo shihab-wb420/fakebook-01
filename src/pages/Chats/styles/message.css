@@ -1,0 +1,26 @@
+.message_container{
+  display: flex;
+  padding:10px;
+  align-items: center;
+}
+.message_container:hover{
+  background: var(--fb-light-gray);
+}
+
+.message_container img{
+  width: 2.58em;
+  height: 2.58em;
+  border-radius: 50%;
+}
+.message_container .titleWrapper{
+  margin-left: 0.5em;
+}
+.message_container .titleWrapper h5{
+  font-size: 17px;
+}
+.message_container .titleWrapper p{
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-gray);
+}
+

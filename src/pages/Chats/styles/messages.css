@@ -1,0 +1,6 @@
+.messages_container{
+  margin-top: 0.35em;
+  padding-top: 7px;
+  padding-bottom: 1em;
+  background: var(--fb-bgColor);
+}

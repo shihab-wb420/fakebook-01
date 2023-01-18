@@ -1,0 +1,35 @@
+
+.WOYM_container{
+  display: flex;
+  justify-content: space-around;
+  padding: 0.9em 0.2em;
+  background: var(--fb-bgColor);
+  align-items: center;
+}
+
+.inputBox{
+  border: none;
+  border-radius: 21px;
+  padding:0.6em 1.1em;
+  font-size: 15px;
+  color: white;
+  background: var(--fb-light-gray);
+}
+.inputBox::placeholder{
+  color: var(--text-light);
+  font-weight: 400;
+}
+.inputBox:focus{
+  outline: none;
+}
+
+.profile{
+  width: 2.4em;
+  height: 2.4em;
+}
+.profile .profileImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}

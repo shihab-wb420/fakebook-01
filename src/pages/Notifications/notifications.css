@@ -1,0 +1,28 @@
+
+
+.notification_container{
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  color: var(--text-light);
+  background: var(--fb-bgColor);
+  
+}
+.notification_container:hover{
+  background: var(--fb-light-gray);
+}
+.notification_container img{
+  width:3em;
+  height:3em;
+  border-radius: 50%;
+}
+.notification_container .title {
+  font-size: 14px;
+  margin-left: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.notification_container .title .createdAt{
+  padding: 4px 0px;
+  color: var(--text-gray);
+}
